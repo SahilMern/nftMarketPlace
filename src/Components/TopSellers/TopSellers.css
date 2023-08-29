@@ -1,0 +1,101 @@
+.TopSeller h1 {
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.TopSeller-list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  /* border: 1px solid pink; */
+}
+.TopSeller_Name_Img {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  width: 16rem;
+  padding: 0.5rem;
+  transition: 0.5s all ease-in-out;
+}
+.TopSeller_Name_Img img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.TopSeller_Name_Img p {
+  font-weight: 700;
+  color: #eee;
+  font-family: 'Oswald', sans-serif;
+  word-wrap: break-word;
+}
+
+.TopSeller_Name_Img small {
+  color: gray;
+  font-family: 'Dancing Script', cursive;
+}
+
+.top-seller_img_div {
+  position: relative;
+}
+
+.Icons-Verifed {
+  position: absolute;
+  bottom: 5%;
+  right: 4%;
+}
+
+.TitickTopSeller {
+  background-color: rgb(192, 12, 12);
+  border-radius: 50%;
+}
+.MdVerified_TopSeller {
+  border-radius: 50%;
+  color: darkblue;
+}
+.TopSeller_Name_Img img:hover {
+  border: 3px solid red;
+}
+.TopSeller_Name_Img:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.025);
+  border-radius: 0.8rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .TopSeller h1 {
+    text-align: center;
+  }
+  /* .TopSeller-list {
+    justify-content: center;
+  } */
+  .TopSeller_Name_Img {
+    width: 20rem;
+    margin-bottom: 0.5rem;
+    /* border: 1px solid rgb(198, 20, 8); */
+  }
+}
+@media screen and (max-width: 880px) {
+  .TopSeller_Name_Img {
+    width: 15rem;
+    /* border: 1px solid rgb(2, 17, 225); */
+  }
+}
+@media screen and (max-width: 680px) {
+  .TopSeller_Name_Img {
+    width: 12rem;
+    /* border: 1px solid pink; */
+  }
+}
+@media screen and (max-width: 480px) {
+  .TopSeller_Name_Img {
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid rgb(246, 9, 49); */
+  }
+}

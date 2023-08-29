@@ -1,0 +1,178 @@
+.NewItem {
+  /* border: 1px solid yellow; */
+  margin-top: 4rem;
+  padding: 1rem 2rem;
+}
+.newItemHeading {
+  /* font-size: 5rem; */
+  margin-bottom: 3rem;
+  /* background: linear-gradient(45deg, #4ca5ff 2.34%, #b673f8 100.78%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+.newItemCards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  /* padding: 0rem 2rem; */
+}
+
+.newItemMainCard {
+  position: relative;
+  height: 24rem;
+  width: 18rem;
+  padding: 2rem 1.5rem;
+  background: rgba(255, 255, 255, 0.025);
+  border-radius: 1rem;
+}
+
+.newItemMainCard .main {
+  height: 14rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+/* neItem card css  */
+.newItemCard-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0rem;
+  margin-top: 0.8rem;
+  gap: 0.8rem;
+}
+.name-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name-option p {
+  font-weight: 700;
+  background: linear-gradient(90deg, #4ca5ff 2.34%, #b673f8 100.78%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.1rem;
+}
+
+.SlOptions {
+  color: gray;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* newItemPrice css */
+.newItemPrice {
+  color: gray;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+  padding: 0 0.2rem;
+}
+
+.spanPercentage {
+  color: white;
+}
+/* craeter and like css  */
+.creater-like {
+  padding: 0 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.image-name {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.placeAbid {
+  color: rgb(229 19 19);
+  font-size: 0.9rem;
+}
+.likeAndTotal {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.likeAndTotal .AiFillHeart {
+  color: rgb(85, 83, 83);
+  cursor: pointer;
+}
+
+.likeAndTotal span {
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+/* user profile css  */
+.userProfile {
+  position: absolute;
+  top: 4%;
+  left: 10%;
+}
+
+.userProfile img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.userProfile img:hover {
+  transform: scale (0.96);
+  border: 3px solid #8758ff;
+}
+
+.resellEndTime {
+  background-color: #eee;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 9rem;
+  padding: 0.5rem;
+  /* border: none; */
+  /* border: 2px solid #8758ff; */
+  box-shadow: #8758ff 0px 1px 4px;
+  border-radius: 30px;
+  position: absolute;
+  top: 4%;
+  right: 8%;
+}
+.resellEndTime p {
+  color: black;
+  font-weight: 500;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 780px) {
+  .newItemMainCard {
+    height: 20rem;
+  }
+  .newItemMainCard .main {
+    height: 10rem;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .newItemMainCard {
+    width: 80%;
+    height: 25rem;
+  }
+  .newItemMainCard .main {
+    height: 15rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .newItemMainCard {
+    width: 100%;
+  }
+}

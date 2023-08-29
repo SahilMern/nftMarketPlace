@@ -1,0 +1,20 @@
+<div className="HotCollectionDataCard">
+        <Carousel responsive={responsive}>
+          {HotCollectionData.map((item, index) => {
+            return (
+              <div className="CratersCard" key={index}>
+                <img
+                  src={item.background}
+                  alt=""
+                  className="CratersCardBackground"
+                />
+                <div className="createrDetails">
+                  <img src={item.creterimg} alt="" className="createrImage" />
+                  <h4>Abstraction</h4>
+                  <p>ERC-192</p>
+                </div>
+              </div>
+            );
+          })}
+        </Carousel>
+      </div>

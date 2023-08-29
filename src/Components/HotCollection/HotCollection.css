@@ -1,0 +1,100 @@
+.HotCollection {
+  padding: 2rem;
+}
+.HotCollection h1 {
+  margin-bottom: 3rem;
+}
+.HotCollectionDataCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.CratersCard {
+  /* border: 1px solid yellow; */
+  box-shadow: #363635 0px 1px 4px;
+  width: 18rem;
+  height: 15rem;
+  padding: 0.5rem;
+  position: relative;
+  background: rgba(255, 255, 255, 0.025);
+  /* F8DE22 */
+  border-radius: 1rem;
+}
+
+.CratersCardBackground {
+  width: 100%;
+  height: 8rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.createrDetails {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.createrImage {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.createrDetails h4 {
+  color: #eee;
+  letter-spacing: 0.1rem;
+}
+.createrDetails p {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.hiii {
+  background-color: #ffff;
+  height: 10rem;
+}
+@media screen and (max-width: 680px) {
+  .HotCollectionDataCard {
+    justify-content: center;
+  }
+  .CratersCard {
+    width: 15rem;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 580px) {
+  .CratersCard {
+    width: 100%;
+    height: 20rem;
+    margin-bottom: 1rem;
+  }
+  .CratersCardBackground {
+    height: 12rem;
+  }
+  .createrImage {
+    height: 5rem;
+    width: 5rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .CratersCard {
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 1rem;
+  }
+  .CratersCardBackground {
+    height: 8rem;
+  }
+  .createrImage {
+    height: 3rem;
+    width: 3rem;
+  }
+}

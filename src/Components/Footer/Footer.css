@@ -1,0 +1,110 @@
+.FooterSection {
+  background: rgba(255, 255, 255, 0.025);
+  /* border-top: 0.4px solid rgb(242, 237, 237); */
+  flex: 1;
+  margin-top: 5rem;
+}
+.Footer_Boxes {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 2rem 5rem;
+}
+
+.FooterSection h4 {
+  color: #eee;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.FooterSection p {
+  color: rgb(132, 130, 130);
+  transition: 0.4s all ease-in-out;
+  font-weight: 400;
+}
+.FooterSection p:hover {
+  color: rgb(222, 2, 2);
+  cursor: pointer;
+}
+
+.FooterSection p {
+  margin: 0.8rem 0rem;
+}
+.FooterBox {
+  /* border: 1px solid tomato; */
+  padding: 0.5rem;
+  width: 18rem;
+  height: 20rem;
+}
+
+.FooterBox h4 {
+  color: #eee;
+  font-size: 1.3rem;
+}
+
+.FooterInput {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border: none;
+  background-color: #2c343e;
+  border-radius: 30px;
+  padding: 0.7rem;
+  color: #eee;
+}
+.FooterInput::placeholder {
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.1;
+}
+.FooterInput:focus {
+  outline: none;
+  font-weight: 400;
+  letter-spacing: 0.1;
+}
+
+.Social-Icons img {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: cover;
+}
+.FooterHr {
+  border: 0.1rem solid gray;
+}
+.Copyright_Div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5rem;
+}
+.Copyright_Div p {
+  color: #eee;
+  font-size: 1.2rem;
+}
+
+.Social-Icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Social-Icons img {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.Footer_Input_div {
+  position: relative;
+}
+
+/* .FooterInputHelperIcon {
+  position: absolute;
+  top: 2%;
+  right: 0%;
+  background-color: #614bc3;
+  height: 3rem;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 12px 12px 0px;
+} */

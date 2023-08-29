@@ -1,0 +1,182 @@
+.nftpages {
+  margin-top: 10rem;
+}
+
+.nftpages h1 {
+  font-size: 4rem;
+  /* font-family: var(--font-family); */
+  font-family: 'Roboto', sans-serif;
+  /* text-align: center; */
+  /* text-transform: uppercase; */
+
+  background: linear-gradient(90deg, #4ca5ff 2.34%, #b673f8 100.78%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nftpageCards {
+  margin-top: 4rem;
+  /* border: 1px solid rgb(37, 36, 36); */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.nftpageSingleCard {
+  padding: 0rem 0.5rem;
+  /* border: 1px solid gray; */
+  border-radius: 1rem;
+  height: 22rem;
+  width: 18rem;
+  box-shadow: rgb(29, 28, 28) 0px 2px 5px -1px, gray 0px 1px 3px -1px;
+  transition: transform 0.9s;
+}
+.nftpageSingleCard:hover {
+  transform: scale(0.96);
+  cursor: pointer;
+  box-shadow: rgba(185, 185, 185, 0.1) 0px 4px 12px;
+}
+.nftpageCardImage {
+  border-radius: 2rem;
+  width: 100%;
+  height: 12rem;
+  padding: 0.5rem;
+  object-fit: cover;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  font-size: 1rem;
+}
+
+.card-content h4 {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  font-family: var(--font-family);
+  /* background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #4ca5ff 2.34%, #b673f8 100.78%);
+  -webkit-background-clip: text;
+  background-clip: text; */
+  font-weight: 900;
+}
+
+.priceOfNft {
+  display: flex;
+  justify-content: space-between;
+}
+.priceheading,
+.createrheading {
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #4ca5ff 2.34%, #b673f8 100.78%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.exactPriceToshow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.exactPriceToshow .priceImage {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.discoutPrice {
+  color: rgb(108, 1, 1);
+  margin-top: 0.5rem;
+  /* margin-left: 1.5rem; */
+  text-align: center;
+}
+
+/* Creator css  */
+.Creator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid pink; */
+}
+
+.profile-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-name img {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  margin-right: 0.7rem;
+}
+
+.nftlist-navbar {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+.nftlist-navbar p {
+  margin-right: 1.5rem;
+  padding: 0.7rem;
+  background-color: #21325e;
+  width: 120px;
+  text-align: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+/* .nftlist-navbar .active {
+  background-color: #184291;
+} */
+
+@media screen and (max-width: 720px) {
+  .nftpages h1 {
+    color: gray;
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .nftpages h1 {
+    color: gray;
+    font-size: 1.5rem;
+  }
+  .nftpageCards {
+    margin-top: 2rem;
+    /* border: 1px solid red; */
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .nftpageSingleCard {
+    padding: 0;
+    width: 15rem;
+    padding: 0.2rem;
+  }
+  .nftpageCardImage {
+    height: 10rem;
+  }
+
+  .card-content {
+    font-size: 1rem;
+  }
+  .card-content h4 {
+    font-size: 1rem;
+  }
+  .priceheading,
+  .createrheading {
+    font-size: 1rem;
+  }
+}
